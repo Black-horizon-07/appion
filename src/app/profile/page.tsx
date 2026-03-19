@@ -6,6 +6,8 @@ import { Calendar, Palette, Moon, Sun, Sparkles, ChevronRight, UserPen, LogOut }
 import { useTheme } from "@/components/ThemeProvider";
 import Link from "next/link";
 
+export const dynamic = "force-dynamic";
+
 export default function ProfilePage() {
   const { data: session } = useSession();
   const { theme, setTheme, accent, setAccent } = useTheme();

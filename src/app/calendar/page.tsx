@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+export const dynamic = "force-dynamic";
 import Header from "@/components/Header";
 import { Calendar as CalendarIcon, Clock, Plus, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";

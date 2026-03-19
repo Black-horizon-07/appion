@@ -4,6 +4,7 @@ import React from "react";
 import PomodoroTimer from "@/components/PomodoroTimer";
 import Header from "@/components/Header";
 
+export const dynamic = "force-dynamic";
 
 export default function TimerPage() {
   return (

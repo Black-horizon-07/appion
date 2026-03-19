@@ -4,6 +4,9 @@ import React, { useState, useRef, useEffect } from "react";
 import { Sparkles, Send, ArrowLeft, Zap, Brain, Trash2 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
+import { db } from "@/lib/db";
+
+export const dynamic = "force-dynamic";
 
 interface Message {
   id: string;
