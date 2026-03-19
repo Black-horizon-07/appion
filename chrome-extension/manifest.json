@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Appion Preview",
+  "version": "1.0",
+  "description": "Preview Appion Next.js App as a Chrome Extension",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Open Appion"
+  },
+  "permissions": []
+}
