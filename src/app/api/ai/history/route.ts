@@ -3,6 +3,8 @@ import { getServerSession } from 'next-auth/next';
 import { authOptions } from '@/lib/auth';
 import { db } from '@/lib/db';
 
+export const dynamic = "force-dynamic";
+
 // GET: List all conversations for the user
 export async function GET() {
   try {

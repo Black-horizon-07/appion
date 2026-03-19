@@ -2,6 +2,8 @@ import { NextResponse } from 'next/server';
 import { getServerSession } from 'next-auth/next';
 import { authOptions } from '@/lib/auth';
 import { db } from '@/lib/db';
+
+export const dynamic = "force-dynamic";
 import { google } from 'googleapis';
 
 export async function GET(request: Request) {

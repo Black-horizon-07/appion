@@ -3,6 +3,8 @@ import { getServerSession } from 'next-auth/next';
 import { authOptions } from '@/lib/auth';
 import { db } from '@/lib/db';
 
+export const dynamic = "force-dynamic";
+
 const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
 
 export async function POST(request: Request) {
